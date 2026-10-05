@@ -1,8 +1,6 @@
-# AlignedRAG-Eval ACL Supplement
+# AlignedRAG-Eval 
 
-This supplement contains the code used to build aligned RAG-poisoning evaluation records and the small audit artifacts reported in the paper.
-
-The repository is intentionally lightweight.
+This repository  contains the code used to build aligned RAG-poisoning evaluation records and the small audit artifacts reported in the paper.
 It does not include benchmark corpora, model weights, external defense repositories, API keys, or full experiment dumps.
 Please download those resources from their original maintainers and follow their licenses.
 
