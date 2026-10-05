@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aligned-rag-eval"
+version = "0.1.0"
+description = "Four-condition evaluation harness for RAG poisoning defenses"
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "MIT"}
+authors = [{name = "Anonymous ACL submission"}]
+dependencies = []
+
+[project.scripts]
+aligned-rag-eval = "aligned_rag.harness:main"
+
+[tool.setuptools]
+packages = ["aligned_rag"]

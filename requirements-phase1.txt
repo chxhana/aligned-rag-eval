@@ -1,0 +1,4 @@
+numpy>=1.24
+transformers>=4.43,<5
+accelerate>=0.33
+matplotlib>=3.7
